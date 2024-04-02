@@ -1,0 +1,309 @@
+/*CSS general*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #c9e7fa;
+}
+
+.container{
+    display: flex;
+}
+
+/*CSS for the header navigation link for every page*/
+.navigation{
+    background-color:#98ceed;
+    height: 75px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation-link{
+    display: flex;
+    background-color: transparent;
+    padding: 20px;
+}
+
+.navigation-link li{
+    list-style-type: none;
+}
+
+.navigation-link a{
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 28px;
+}
+
+.navigation-link a.active{
+    color: #85bbda;
+}
+
+.navigation-link a:hover{
+    color:#8fc5e3;
+    transition: .5s;
+}
+
+/*CSS for home page*/
+.home-content{
+    margin: 100px;
+    width: 50%;
+}
+
+.home-content h1{
+    color: #85bbda;
+    margin-bottom: 50px;
+    font-size: 100px;
+}
+
+.home-content p{
+    color: #8fc5e3;
+    font-size: 35px;
+}
+
+.home-content span{
+    color:white;
+    font-size: 40px;
+
+}
+
+.button-list{
+    margin: 100px 50px 50px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-list a{
+    padding: 20px;
+    background-color: #8fc5e3;
+    border-radius: 20px;
+    border-color: transparent;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.button-list a:hover{
+    background-color: black;
+}
+
+.profile img{
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 80%;
+    height: auto;
+    border-radius: 50px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.profile img:hover{
+    transform: scale(0.9);
+}
+
+/*CSS for about page*/
+.about{
+    display: flex;
+}
+
+.about img{
+    width: 35%;
+    height: auto;
+}
+
+.about-content h1{
+    color: #85bbda;
+    margin: 30px 20px;
+    font-size: 70px;
+}
+
+.about-content p{
+    margin: 0px 20px;
+    color: black;
+    font-size: 20px;
+}
+
+.about-content li{
+    margin: 50px 30px;
+}
+
+/*CSS for hobby page*/
+.hobby{
+    display: flex;
+}
+
+.hobbyH1{
+    margin: 20px;
+    font-size: 75px;
+}
+
+.hobby-content{
+    margin: 25px 0 0 35px;
+    padding: 20px;
+    width: 30%;
+    border-radius: 20px;
+}
+
+.hobby-content p{
+    font-size: 25px;
+    text-align: center;
+}
+
+.hobby-content img{
+    border-radius: 150px;
+    margin: 10px 0 0 100px;
+    transform: translateY(0);
+    transition: transform 0.3s ease;
+}
+
+.hobby-content img:hover{
+    transform: translateY(-10px);
+}
+
+/*CSS for personality page*/
+.personality{
+    display: flex;
+}
+
+.personality-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.personality-header h1{
+    font-size: 80px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.personality-header img{
+    width: 125px;
+    height: auto;
+    margin: 20px 20px 0 20px;
+    border-radius: 50%;
+}
+
+.personality-content{
+    width: 30%;
+    margin: 50px 20px;
+    background-color: #85bbda;
+    transition: transform 0.3s ease;
+}
+
+.personality-content:hover{
+    transform: translateY(15px);
+}
+
+.personality-content h3{
+    color: black;
+    margin: 30px 20px;
+    font-size: 60px;
+    text-align: center;
+}
+
+.personality-content p{
+    margin: 20px 20px;
+    color: white;
+    font-size: 20px;
+}
+
+/*CSS for education page*/
+.education-list{
+    margin: 20px 50px;
+}
+
+.education{
+    display: flex;
+    margin: 30px 10px;
+}
+
+.education-content{
+    background-color:#98ceed;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.education-content h3{
+    color: #85bbda;
+    margin-bottom: 20px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.education-content p{
+    color: white;
+    font-size: 25px;
+}
+
+.school img{
+    width: 300px;
+    height: auto;
+    border-radius: 100px;
+    margin: 50px 0 0 50px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.school img:hover{
+    transform: scale(1.1);
+}
+
+/*CSS for contact page*/
+.contact-content{
+    margin: 100px;
+    width: 50%;
+}
+
+.contact-content h1{
+    color: #85bbda;
+    margin-bottom: 50px;
+    font-size: 100px;
+}
+
+.contact-content p{
+    color: #8fc5e3;
+    font-size: 35px;
+}
+
+.social-media{
+    margin: 50px 0 0 0;
+    padding: 30px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.social-media.left{
+    margin-right: 200px;
+}
+
+.social-media.right{
+    margin-left: 200px;
+}
+
+.social-media img{
+    width: 200px;
+    height: auto;
+    transition: transform 0.5s;
+}
+
+.social-media img:hover{
+    transform: rotate(10deg);
+}
+
+table {
+    margin-top: 30px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border: 3px solid black;
+
+}
